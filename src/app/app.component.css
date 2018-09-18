@@ -1,3 +1,7 @@
 .example-container{
     height: 100%;
 }
+
+#side-nav{
+    width: 200px;
+}

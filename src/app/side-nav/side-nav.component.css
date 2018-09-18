@@ -1,12 +1,9 @@
-.example-container{
-    height: 100%;
-}
-
 #brand-name{
     padding-right: 10px;
     padding-left: 10px;
     padding-top: 20px;
     margin-bottom: 0;
+    text-align: center;
 }
 
 #not-a-brand{
@@ -20,4 +17,8 @@
     transform:rotate(-180deg);
     ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
     filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+}
+
+#side-nav-buttons{
+    text-align: center;
 }

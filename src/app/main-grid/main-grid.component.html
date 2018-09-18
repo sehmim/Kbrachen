@@ -1,3 +1,6 @@
-<p>
-  main-grid works!
-</p>
+<mat-grid-list cols="3" gutterSize='10'>
+  <mat-grid-tile *ngFor="let image of images">
+    <img src='../../assets/img/{{image}}' class='tile-image'>
+  </mat-grid-tile>
+</mat-grid-list>
+

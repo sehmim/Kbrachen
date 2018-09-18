@@ -1,10 +1,10 @@
 <mat-drawer-container class="example-container">
-    <mat-drawer mode="side" opened>
+    <mat-drawer id='side-nav' mode="side" opened>
         <app-side-nav></app-side-nav>
         <!-- add in the rest of the potentila items for the side nav-->
     </mat-drawer>
     <mat-drawer-content>
-        hello
+        <app-main-grid></app-main-grid>
         <!--create another component for dealing the rest of the webpage and call in in here-->
     </mat-drawer-content>
 </mat-drawer-container>
