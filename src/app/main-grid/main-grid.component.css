@@ -1,4 +1,12 @@
 .tile-image {
     height: 100%;
+    padding: 10px;
 }
 
+.rotate-image{
+    transform: rotate(-90deg);
+}
+
+.no-rotate-image{
+    transform: rotate(0deg);
+}

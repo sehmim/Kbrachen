@@ -1,7 +1,7 @@
 
-<mat-grid-list cols="3" gutterSize='10'>
+<mat-grid-list cols="3" gutterSize='70'>
   <mat-grid-tile *ngFor="let image of images">
-    <img class='tile-image' src='../../assets/img/{{image.file}}' style='transform: rotate({{image.rotate}}deg);'>
+    <img class='tile-image {{image.class}}' src='../../assets/img/{{image.file}}'>
   </mat-grid-tile>
 </mat-grid-list>
 
