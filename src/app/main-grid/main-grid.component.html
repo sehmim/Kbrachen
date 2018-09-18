@@ -1,6 +1,9 @@
+
 <mat-grid-list cols="3" gutterSize='10'>
   <mat-grid-tile *ngFor="let image of images">
-    <img src='../../assets/img/{{image}}' class='tile-image'>
+    <img class='tile-image' src='../../assets/img/{{image.file}}' style='transform: rotate({{image.rotate}}deg);'>
   </mat-grid-tile>
 </mat-grid-list>
+
+<!-- what you can do instead f creating the class with the rotate variable, switch it so it uses a class and then depanding on the class name you give it you can rotate in the css file-->
 
