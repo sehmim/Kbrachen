@@ -7,6 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SideNavComponent implements OnInit {
 
+  button_test = "";
+
+  onClick(word){
+    this.button_test = word;
+  }
+
   constructor() { }
 
   ngOnInit() {

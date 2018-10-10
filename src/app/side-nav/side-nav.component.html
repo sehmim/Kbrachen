@@ -1,14 +1,14 @@
 <h1 id='brand-name'>Kbrachen</h1>
 <h5 id='not-a-brand'>not a brand</h5>
-{{hello}}
+{{button_test}}
 <mat-list id='side-nav-buttons' role='list'>
     <mat-list-item role='listitem'>
-            <button mat-button>HOME</button>
+            <button (click)='onClick("HOME")' mat-button>HOME</button>
     </mat-list-item>
     <mat-list-item role='listitem'>
-            <button mat-button (click)='onSelect()'>ABOUT</button>
+            <button (click)='onClick("ABOUT")' mat-button >ABOUT</button>
     </mat-list-item>
     <mat-list-item role='listitem'>
-            <button mat-button >CONTACT</button>
+            <button (click)='onClick("CONTACT")' mat-button >CONTACT</button>
     </mat-list-item>
 </mat-list>
