@@ -4,9 +4,12 @@
     padding-top: 20px;
     margin-bottom: 0;
     text-align: center;
+    font-family: Poetsen;
+    font-size: 250%;
 }
 
 #not-a-brand{
+    font-family: Poetsen;
     margin-top: 0;
     padding-left: 10px;
     padding-right: 10px;

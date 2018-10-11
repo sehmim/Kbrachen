@@ -26,7 +26,8 @@
               {
                 "input": "node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css"
               },
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/customfonts.css"
             ],
             "scripts": []
           },
