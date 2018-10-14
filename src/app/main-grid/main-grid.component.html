@@ -1,6 +1,5 @@
-
-<mat-grid-list cols="4" gutterSize='30'>
-  <mat-grid-tile *ngFor="let image of images">
+<mat-grid-list cols="4" gutterSize='25'>
+  <mat-grid-tile *ngFor="let image of images" [colspan]="image.col" [rowspan]="image.row">
     <img class='tile-image {{image.class}}' src='../../assets/img/{{image.file}}'>
   </mat-grid-tile>
 </mat-grid-list>
